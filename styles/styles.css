@@ -1,0 +1,28 @@
+:root {
+    --footer-bar: #1E2C20;
+    --card-stroke: #000000;
+    --text-color: #292828;
+    --bg-color-1: #fb7185;
+    --active-nav-hover: #982A1C;
+    --accent-text: #B73A2A;
+    --card-red: #EA2D2C;
+    --card-orange: #FB5108;
+    --card-gold: #D29D12;
+    --nav-bar-text: #353535;
+    --background: #EDEDED;
+    --secondary-text: #FFFFFF;
+}
+
+/* Navbar CSS */
+.pot-icon {
+    background-color: var(--accent-text);
+    border-radius: 5px;
+}
+
+/* Hero Img CSS */
+.hero-img {
+    background-image: url(../asset/images_for_use_on_website/hero.jpg);
+    width: 100%;
+    height: 1067px;
+    object-fit: cover;
+}
