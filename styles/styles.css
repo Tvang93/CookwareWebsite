@@ -21,7 +21,7 @@
 
 /* Hero Img CSS */
 .hero-img {
-    background-image: url(../asset/images_for_use_on_website/hero.jpg);
+    background-image: url(../asset/hero.jpg);
     width: 100%;
     height: 1067px;
     object-fit: cover;
