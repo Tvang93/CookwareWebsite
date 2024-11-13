@@ -13,16 +13,165 @@
     --secondary-text: #FFFFFF;
 }
 
+
+
+/* General */
+body {
+    color: var(--text-color);
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+}
+
+h4 {
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.body-text-24 {
+    font-size: 24px;
+}
+
+.body-text-20 {
+    font-size: 20px;
+}
+
+.body-text-18 {
+    font-size: 18px;
+}
+
+.body-text-18-semi {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.disp-center {
+    display: flex;
+    justify-content: center;
+}
+
+.content-margins {
+    margin-left: 159px;
+    margin-right: 113px;
+}
+
+
 /* Navbar CSS */
 .pot-icon {
     background-color: var(--accent-text);
     border-radius: 5px;
+    padding: 0.5rem 1.1875rem;
 }
+
+.nav-item a {
+    color: var(--text-color);
+}
+
+.nav-item a:hover {
+    color: var(--card-orange);
+    text-decoration: underline;
+}
+/* Navbar End */
 
 /* Hero Img CSS */
 .hero-img {
-    background-image: url(../asset/hero.jpg);
-    width: 100%;
     height: 1067px;
+    background-image: url(../asset/hero.jpg);
+    background-repeat: no-repeat;
     object-fit: cover;
 }
+
+.hero-img h4{
+    text-align: center;
+    background-color: rgb(24, 24, 24, 0.8);
+    color: var(--secondary-text);
+    width: 545px;
+    padding: 25.2px 32px;
+    position: relative;
+    top:758px; left: 113px;
+}
+
+/* Hero Img End */
+
+/* Sales Bar CSS */
+.sales-bar {
+    background-color: var(--footer-bar);
+    display:flex;
+    justify-content: center;
+    color: var(--secondary-text);
+}
+
+.sales-bar p {
+    margin: 31.5px 0;
+}
+/* Sales Bar End */
+
+/* Start Cooking CSS */
+.section-header-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.section-header-grid h1 {
+    grid-column: 2 / span 1;
+    text-align: center;
+}
+
+.start-cooking-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 47px;
+}
+
+.start-cooking-cards {
+    grid-column: span 1;
+    width: 379px;
+    height: 402px;
+}
+
+.start-cooking-cards img {
+    height: 347px;
+    width: 376px;
+    object-fit: cover;
+}
+/* Start Cooking End */
+
+/* New Arrival */
+.new-arrival {
+    display: flex;
+    justify-content: space-between;
+}
+
+.new-arrival-card {
+    height: 831px;
+    width: 805px;
+}
+
+.new-arrival-card img {
+    width: 805px;
+    height: 632px;
+    object-fit: fill;
+}
+/* New Arrivals End */
