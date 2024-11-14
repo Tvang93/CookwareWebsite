@@ -16,13 +16,13 @@
 <body>
     <!-- Navbar -->
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
+            <div class="container-fluid p-0">
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand order-last order-lg-0" href="#">
+                <a class="navbar-brand order-last order-lg-0 p-0 icon-margin" href="#">
                     <img src="./asset/Icons/Pot.png" alt="boiling pot icon" class="pot-icon">
                 </a>
                 <div class="offcanvas offcanvas-start" tabindex="-1" data-bs-scroll="true" id="offcanvasNavbar"
@@ -30,19 +30,19 @@
                     <div class="offcanvas-header d-flex justify-content-start d-lg-none">
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
-                    <div class="offcanvas-body d-lg-flex justify-content-center align-items-center">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">COOKWARE</a>
+                    <div class="offcanvas-body d-lg-flex justify-content-center align-items-center nav-con-margin">
+                        <ul class="navbar-nav body-text-24">
+                            <li class="nav-item margin-x-23">
+                                <a class="nav-link p-0" href="#">COOKWARE</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">BAKEWARE</a>
+                            <li class="nav-item margin-x-23">
+                                <a class="nav-link p-0" href="#">BAKEWARE</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">ACCESSORIES</a>
+                            <li class="nav-item margin-x-23">
+                                <a class="nav-link p-0" href="#">ACCESSORIES</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">SALE</a>
+                            <li class="nav-item margin-x-23">
+                                <a class="nav-link p-0 red-color-text" href="#">SALE</a>
                             </li>
                         </ul>
                     </div>
@@ -67,7 +67,7 @@
 
     <!-- Start Cooking Grid?-->
     <div class="section-header-grid">
-        <h1>Start Cooking</h1>   
+        <h1>Start Cooking</h1>
     </div>
     <section class="start-cooking-grid content-margins">
         <div class="start-cooking-cards">
@@ -79,8 +79,8 @@
             <h2>Stock Pot</h2>
         </div>
         <div class="start-cooking-cards">
-           <img src="./asset/StartCooking3.jpeg" alt="sauce pan">
-            <h2>Sauce Pan</h2> 
+            <img src="./asset/StartCooking3.jpeg" alt="sauce pan">
+            <h2>Sauce Pan</h2>
         </div>
         <div class="start-cooking-cards">
             <img src="./asset/StartCooking4.jpeg" alt="utensils in a pot">
@@ -113,64 +113,76 @@
 
     <!-- Best Seller Bootstrap?-->
     <h1 class="d-flex justify-content-center">Best Seller</h1>
-    <section>
+    <section class="content-margins">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-4">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <img src="./asset/BestSeller1.jpg" alt="red stock pot" class="img-fluid">
+            <div class="row d-flex justify-content-between">
+                <div class="col-4 p-39 ps-0">
+                    <div class="container border border-black rounded-3">
+                        <div class="row p-4">
+                            <div class="col-12 best-seller-img-box p-0">
+                                <img src="./asset/BestSeller1.jpg" alt="red stock pot"
+                                    class="best-seller-img rounded-3">
                             </div>
-                            <div class="col-12">
+                            <div class="col-12 p-0 my-4">
                                 <h2>Stock Pot</h2>
                             </div>
-                            <div class="col-12">
-                                <p>
-                                    Our fall bakeware is back again with warm fall colors.Check out our fall line of bakeware from fall colored pots to baking pans.
+                            <div class="col-12 p-0 mb-4">
+                                <p class="body-text-18 pe-42 mb-0">
+                                    Our fall bakeware is back again with warm fall colors.Check out our fall line of
+                                    bakeware from fall colored pots to baking pans.
                                 </p>
                             </div>
-                            <div class="col-12">
+                            <div class="col-12 p-0 mt-4">
                                 <button>Shop Now</button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <img src="./asset/BestSeller2.jpg" alt="blue stock pot on stove" class="img-fluid">
+                <div class="col-4 p-14">
+                    <div class="container border border-black rounded-3">
+                        <div class="row p-4">
+                            <div class="col-12 best-seller-img-box p-0">
+                                <img src="./asset/BestSeller2.jpg" alt="blue stock pot"
+                                    class="best-seller-img rounded-3">
                             </div>
-                            <div class="col-12">
+                            <div class="col-12 p-0 my-4">
                                 <h2>Stock Pot</h2>
                             </div>
-                            <div class="col-12">
-                                <p>
-                                    The Stock Pot is a cookware that is revolutionizing the way you cook! With its innovative design and advanced materials. The Stock Pot is the perfect choice for any kitchen. Its unique combination of ceramic and aluminum ensures that your food cooks evenly and quickly, while its non-stick coating ensures that nothing sticks to the surface. Whether you’re cooking for one or the whole family, the Stock Pot is the perfect choice!
+                            <div class="col-12 p-0 mb-4">
+                                <p class="body-text-18 mb-0">
+                                    The Stock Pot is a cookware that is revolutionizing the way you cook! With its
+                                    innovative design and advanced materials. The Stock Pot is the perfect choice for
+                                    any kitchen. Its unique combination of ceramic and aluminum ensures that your food
+                                    cooks evenly and quickly, while its non-stick coating ensures that nothing sticks to
+                                    the surface. Whether you’re cooking for one or the whole family, the Stock Pot is
+                                    the perfect choice!
                                 </p>
                             </div>
-                            <div class="col-12">
+                            <div class="col-12 p-0 mt-4">
                                 <button>Shop Now</button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <img src="./asset/BestSeller3.jpg" alt="blue sauce pan on counter" class="img-fluid">
+                <div class="col-4 p-39 pe-0">
+                    <div class="container border border-black rounded-3">
+                        <div class="row p-4">
+                            <div class="col-12 best-seller-img-box p-0">
+                                <img src="./asset/BestSeller3.jpg" alt="blue sauce pan"
+                                    class="best-seller-img rounded-3">
                             </div>
-                            <div class="col-12">
+                            <div class="col-12 p-0 my-4">
                                 <h2>Stock Pot</h2>
                             </div>
-                            <div class="col-12">
-                                <p>
-                                    The Sauce Pan is the perfect cookware for making a variety of sauces, stews, soups, and more. Its stainless steel construction ensures even heat distribution for better and faster cooking. No matter what you're cooking, you can count on the Sauce Pan to help you cook like a pro.
+                            <div class="col-12 p-0 mb-4">
+                                <p class="body-text-18 mb-0">
+                                    The Sauce Pan is the perfect cookware for making a variety of sauces, stews, soups,
+                                    and more. Its stainless steel construction ensures even heat distribution for better
+                                    and faster cooking. No matter what you're cooking, you can count on the Sauce Pan to
+                                    help you cook like a pro.
                                 </p>
                             </div>
-                            <div class="col-12">
+                            <div class="col-12 p-0 mt-4">
                                 <button>Shop Now</button>
                             </div>
                         </div>
@@ -182,14 +194,33 @@
 
     <!-- Reviews -->
     <h1>Reviews</h1>
-    <section>
-        <div class="review-hero-1">
-            <h2>Wok Star!</h2>
-            <p>I love cooking using the cast iron wok for everyday family meals. With the wok it makes the food I make
-                turn into restaurant quality meals. I bought this wok for my parents and also siblings!</p>
-            <p>David Jones</p>
+    <section class="reviews-grid content-margins">
+        <div class="reviews-card-grey-box">
+            <p>a</p>
         </div>
-        <div class="review-hero-2">
+        <div class="reviews-card-grey-box">
+            <p>a</p>
+        </div>
+        <div class="reviews-card-grey-box">
+            <p>a</p>
+        </div>
+
+
+
+
+
+
+        <!-- <div class="review-hero-1">
+            <div>
+                <h2>Wok Star!</h2>
+                <p>I love cooking using the cast iron wok for everyday family meals. With the wok it makes the
+                    food I make
+                    turn into restaurant quality meals. I bought this wok for my parents and also siblings!</p>
+                <p>David Jones</p>
+            </div>
+        </div> -->
+
+        <!-- <div class="review-hero-2">
             <h2>Built To Last</h2>
             <p>Bought the cast iron pot and it lasted longer than the other brands I bought. Not only are the pots
                 durable but the colors of the pots are so nice!</p>
@@ -198,9 +229,9 @@
         <div class="review-hero-3">
             <h2>Best Cookware!</h2>
             <p>I love all the cookware. I just bought my 4th pan and love it so much! I love the color of the pot and
-                how durable the pots are. I’ve recommended the cast iron pot to all my friends and family.</p>
+                how durable the pots are. I've recommended the cast iron pot to all my friends and family.</p>
             <p>Michelle</p>
-        </div>
+        </div> -->
     </section>
 
     <!-- Footer -->
