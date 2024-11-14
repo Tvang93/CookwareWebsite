@@ -100,7 +100,7 @@ h5 {
     height: 1067px;
     background-image: url(../asset/hero.jpg);
     background-repeat: no-repeat;
-    object-fit: cover;
+    background-size: cover;
 }
 
 .hero-img h4{
@@ -110,7 +110,7 @@ h5 {
     width: 545px;
     padding: 25.2px 32px;
     position: relative;
-    top:758px; left: 113px;
+    top:893px; left: 113px;
 }
 
 /* Hero Img End */
