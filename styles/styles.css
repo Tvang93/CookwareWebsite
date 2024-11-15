@@ -112,7 +112,7 @@ h5 {
 }
 
 .icon-margin{
-    margin: 24px 0 32px 113px;
+    margin: 24px 0 32px 89px;
 }
 
 .nav-con-margin{
@@ -136,7 +136,7 @@ h5 {
     background-size: cover;
 }
 
-.hero-img h4{
+/* .hero-img h4{
     text-align: center;
     background-color: rgb(24, 24, 24, 0.8);
     color: var(--secondary-text);
@@ -144,7 +144,7 @@ h5 {
     padding: 25.2px 32px;
     position: relative;
     top:893px; left: 113px;
-}
+} */
 
 /* Hero Img End */
 
@@ -181,13 +181,13 @@ h5 {
 
 .start-cooking-cards {
     grid-column: span 1;
-    width: 379px;
+    width: 100%;
     height: 402px;
 }
 
 .start-cooking-cards img {
     height: 347px;
-    width: 376px;
+    width: 100%;
     object-fit: cover;
     border-radius: 10px;;
 }
@@ -204,9 +204,17 @@ h5 {
 }
 
 .new-arrival-card img {
-    width: 805px;
+    width: 100%;
     height: 632px;
     object-fit: cover;
+}
+
+.me-12 {
+    margin-right: 12px;
+}
+
+.ms-12 {
+    margin-left: 12px;
 }
 /* New Arrivals End */
 
@@ -216,7 +224,6 @@ h5 {
 }
 
 .best-seller-img-box {
-    width: 449px;
     height: 338px;
 }
 
@@ -224,6 +231,14 @@ h5 {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.best-seller-btn {
+    width: 159px;
+    height: 42px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid;
 }
 
 .p-14 {
@@ -312,7 +327,9 @@ h5 {
     width: 240px;
     height: 42px;
     border: 0;
-    padding: 0;
+    padding: 8px;
+    font-size: 12px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 .footer-content button {
@@ -328,4 +345,121 @@ h5 {
 .max-width-405 {
     max-width: 405px;
 }
+
+.mx-14{
+    margin-left: 14px;
+    margin-right: 14px;
+}
 /* Footer End */
+
+@media (min-width: 2001px) {
+    /* General CSS*/
+    .space-between {
+        justify-content: space-evenly;
+    }
+    /* General End*/
+}
+
+@media (max-width: 1632px) {
+    /* Hero Img CSS */
+    .hero-img {
+        height: 907px
+    }
+    /* Hero Img End */
+    
+    /* New Arrival CSS */
+    .new-arrival-card img {
+        height: 537px;
+    }
+    /* New  Arrival End */
+}
+
+@media (max-width: 1400px) {
+    /* New Arrival CSS */
+    .new-arrival-card img {
+        height: 474px;
+    }
+    /* New  Arrival End */
+
+    /* Footer */
+    .max-width-405{
+
+    }
+    /* Footer End */
+}
+
+@media (max-width: 1200px) {
+    /* Nav */
+    .nav-con-margin{
+        margin-right: 0px;
+    }
+    /* Nav End */
+
+}
+
+@media (max-width: 992px) {
+    /* General CSS */
+    .content-margins {
+        margin: 0;
+    }
+    /* General End */
+
+    /* Footer */
+    .footer-content input {
+        width: 190px;
+    }
+
+    .footer-content button {
+        width: 190px;
+    }
+
+
+    /* Footer */
+}
+
+@media (max-width: 768px) {
+
+    /* Footer */
+    .footer-content ul:nth-of-type(2) {
+        padding-left: 50px;
+    }
+    .footer-content ul:nth-of-type(3) {
+        padding-left: 50px;
+    }
+    /* Footer End*/
+}
+
+@media (max-width: 576px) {
+
+    /* Start Cooking CSS */
+    .start-cooking-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    /* Start Cooking End */
+
+
+    /* Review */
+    /* .reviews-hero-box-1 {
+        width: 411px;
+    } */
+
+
+    /* Footer */
+    .footer-content ul:first-of-type {
+        padding-left: 50px;
+    }
+    /* Footer End */
+}
+
+@media (max-width: 460px) {
+
+/* Footer */
+.footer-content ul:first-of-type {
+    padding-left: 0;
+}
+.footer-content ul:nth-of-type(3) {
+    padding-left: 0;
+}
+/* Footer End */
+
+}
