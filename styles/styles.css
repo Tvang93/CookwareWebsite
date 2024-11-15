@@ -185,11 +185,21 @@ h5 {
     height: 402px;
 }
 
-.start-cooking-cards img {
+.start-cooking-card-top {
     height: 347px;
+    width: 100%; 
+    overflow: hidden;
+}
+
+.start-cooking-card-top img {
     width: 100%;
+    height: 100%;
     object-fit: cover;
     border-radius: 10px;;
+}
+
+.start-cooking-card-top img:hover {
+    transform: scale(1.3);
 }
 /* Start Cooking End */
 
@@ -209,6 +219,10 @@ h5 {
     object-fit: cover;
 }
 
+.new-arrival-card img:hover {
+    filter: brightness(0.75);
+}
+
 .me-12 {
     margin-right: 12px;
 }
@@ -225,6 +239,7 @@ h5 {
 
 .best-seller-img-box {
     height: 338px;
+    overflow: hidden;
 }
 
 .best-seller-img {
@@ -233,12 +248,22 @@ h5 {
     object-fit: cover;
 }
 
+.best-seller-img:hover {
+    transform: scale(1.3);
+    border-radius: 10px;
+}
+
 .best-seller-btn {
     width: 159px;
     height: 42px;
     text-align: center;
     font-size: 16px;
     border: 1px solid;
+}
+
+.best-seller-btn:hover {
+    background-color: var(--footer-bar);
+    color: var(--secondary-text);
 }
 
 .p-14 {
@@ -381,11 +406,6 @@ h5 {
     }
     /* New  Arrival End */
 
-    /* Footer */
-    .max-width-405{
-
-    }
-    /* Footer End */
 }
 
 @media (max-width: 1200px) {
@@ -419,7 +439,28 @@ h5 {
 
 @media (max-width: 768px) {
 
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+
+    /* Best Seller */
+    .p-39 {
+        padding: 0 5px;
+    }
+    .p-14 {
+        padding: 0 5px;
+    }
+    /* Best Seller End*/
+
     /* Footer */
+    .footer-bg{
+        margin:0;
+    }
     .footer-content ul:nth-of-type(2) {
         padding-left: 50px;
     }
