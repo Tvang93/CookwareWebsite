@@ -17,6 +17,7 @@
 
 /* General */
 body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     color: var(--text-color);
     background-color: var(--background);
 }
@@ -86,6 +87,10 @@ h5 {
     display: flex;
     justify-content: space-between;
 }
+
+.no-curve {
+    border-radius: 0;
+}
 /* Navbar CSS */
 .pot-icon {
     background-color: var(--accent-text);
@@ -116,6 +121,10 @@ h5 {
 
 .red-color-text{
     color: var(--accent-text)!important;
+}
+
+.secondary-text-color {
+    color: var(--secondary-text);
 }
 /* Navbar End */
 
@@ -161,6 +170,7 @@ h5 {
 .section-header-grid h1 {
     grid-column: 2 / span 1;
     text-align: center;
+    margin: 111px 0 53px;
 }
 
 .start-cooking-grid {
@@ -179,10 +189,15 @@ h5 {
     height: 347px;
     width: 376px;
     object-fit: cover;
+    border-radius: 10px;;
 }
 /* Start Cooking End */
 
 /* New Arrival */
+.new-arrival-header{
+    margin: 116px 0 54px;
+}
+
 .new-arrival-card {
     height: 831px;
     width: 805px;
@@ -196,6 +211,10 @@ h5 {
 /* New Arrivals End */
 
 /* Best Seller CSS */
+.best-seller-header {
+    margin: 85px 0 50px;
+}
+
 .best-seller-img-box {
     width: 449px;
     height: 338px;
@@ -221,6 +240,10 @@ h5 {
 /* Best Seller End */
 
 /* Review CSS */
+.reviews-header {
+    margin: 131px 0 53px;
+}
+
 .reviews-hero-box-1{
     background-image: url(../asset/Reviews1.jpg);
     border-radius: 10px;
@@ -264,6 +287,45 @@ h5 {
 .reviews-grey-box-width p{
     line-height: 22px;
 }
-
-
 /* Review End */
+
+/* Footer CSS */
+.footer-bg {
+    margin-top: 118px;
+    background-color: var(--footer-bar);
+    width: 100%;
+}
+
+.footer-pad {
+    padding: 92px 0 74px;
+}
+
+.footer-content p {
+    margin: 0 0 14px;
+}
+
+.footer-content ul {
+    padding-left: 100px;
+}
+
+.footer-content input {
+    width: 240px;
+    height: 42px;
+    border: 0;
+    padding: 0;
+}
+
+.footer-content button {
+    color: var(--secondary-text);
+    background-color: transparent;
+    border-radius: 1px;
+    border-color: #FFFFFF;
+    height: 42px;
+    width: 155px;
+    padding: 0;
+}
+
+.max-width-405 {
+    max-width: 405px;
+}
+/* Footer End */
