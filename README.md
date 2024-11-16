@@ -30,3 +30,6 @@ Mobile
 Overall :  
 
 looks perfect! I've looked at other people's work and  this is a project I can't do much nitpicking!  :)  
+
+
+-- saw feedback would implement but ran out of time.
